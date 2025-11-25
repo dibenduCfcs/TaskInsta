@@ -86,7 +86,7 @@ const Tab = () => {
       >
         <TabStack.Screen name="Post" component={Posts} />
         <TabStack.Screen name="Videos" component={Videos} />
-        <TabStack.Screen name="Tagged Items" component={Tagged} />
+        <TabStack.Screen name="Tagged Items" component={Tagged} options={{}} />
         <TabStack.Screen name="About" component={About} />
       </TabStack.Navigator>
     </SafeAreaView>
